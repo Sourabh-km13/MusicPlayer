@@ -6,7 +6,7 @@ export default function ProfileBanner() {
       <div className=" p-10 flex items-end">
         <div className="p-5">
           <img
-            src="../../public/profileimg.png"
+            src="/public/profileimg.png"
             alt="profile"
             className="rounded-full w-28 h-28 shadow-2xl shadow-black"
           />
