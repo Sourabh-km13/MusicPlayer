@@ -31,6 +31,5 @@ A fully functional and responsive **music player** built using **React** and **R
    ```
 
 ## 📸 Screenshots
-(Include screenshots or a demo GIF here)
 ![spotifyclone](https://github.com/user-attachments/assets/907b5a10-7929-45ed-94e4-0e7a9e2d1c89)
 
