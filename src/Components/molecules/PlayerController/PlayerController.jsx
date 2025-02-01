@@ -63,7 +63,7 @@ export default function PlayerController({
                                     ...prevState,
                                     playing: true,
                                 }))
-                            }, 0)
+                            }, 10)
                         }
                     >
                         <MdPlayCircleFilled />
