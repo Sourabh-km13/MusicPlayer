@@ -4,6 +4,7 @@ import { MainLayout } from './Layout/MainLayout';
 import Home from './Pages/Home';
 
 import playerContext from './Context/playerContext';
+import GradientWrapper from './Components/molecules/GradientWrapper';
 
 function App() {
   const [playerstate, setPlayerstate] = useState({
@@ -19,8 +20,8 @@ function App() {
   <playerContext.Provider value={{playerstate,setPlayerstate}}> 
     <Routes>
       <Route path='/' element={<MainLayout children={<Home/>}/>} />
-      <Route path='/search' element={<MainLayout children={"Search"}/>} />
-      <Route path='/Playlists' element={<MainLayout children={"Playlists"}/>} />
+      <Route path='/search' element={<MainLayout children={<GradientWrapper children={"search"}/>}/>} />
+      <Route path='/Playlists' element={<MainLayout children={<GradientWrapper children={"playlist"}/>}/>} />
     </Routes>
   </playerContext.Provider>   
   )
