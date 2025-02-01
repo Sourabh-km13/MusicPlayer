@@ -7,7 +7,7 @@ const Logo=({width,height})=> {
             className='px-5 mb-5 w-32'
             >
                 <img 
-                src="../public/logo.png"
+                src="/logo.png"
                 alt="logo"
                 className={`w-${width} h-${height}`}
                 />
